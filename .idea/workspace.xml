@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="980b92e2-a3df-4cff-8188-e67b5b4a3883" name="Changes" comment="- Создал первый вертикл&#10;- Создал роутер&#10;- На роутер создан гет запрос с ответом">
-      <change afterPath="$PROJECT_DIR$/src/main/java/first_verticle/HelloWithNameVerticle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/first_verticle/ServerVerticle.java" afterDir="false" />
+    <list default="true" id="980b92e2-a3df-4cff-8188-e67b5b4a3883" name="Changes" comment="- Передача параметров в get и их получение&#10;- consumer и publisher">
+      <change afterPath="$PROJECT_DIR$/src/main/java/first_verticle/SumNumbersVerticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/calc-vertx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/vertx-eventbus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/first_verticle/HelloVerticle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first_verticle/ServerVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_verticle/ServerVerticle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/first_verticle/StartApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_verticle/StartApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="Class" />
       </list>
     </option>
@@ -36,22 +41,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Java_proj/vertex_task/src/main/java/first_verticle&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/Java_proj/vertex_task/src/main/resources",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Java_proj\vertex_task\src\main\resources" />
       <recent name="F:\Java_proj\vertex_task\src\main\java\first_verticle" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Java_proj\vertex_task\src\main\webapp" />
+      <recent name="F:\Java_proj\vertex_task\src\main\resources\webroot" />
+      <recent name="F:\Java_proj\vertex_task\src\main\resources" />
     </key>
   </component>
   <component name="RunManager">
@@ -85,7 +97,9 @@
       <workItem from="1666281657526" duration="3721000" />
       <workItem from="1666313244982" duration="600000" />
       <workItem from="1666504866559" duration="8733000" />
-      <workItem from="1666530009251" duration="4228000" />
+      <workItem from="1666530009251" duration="7233000" />
+      <workItem from="1666630963515" duration="3122000" />
+      <workItem from="1666656666678" duration="2537000" />
     </task>
     <task id="LOCAL-00001" summary="- Создал первый вертикл&#10;- Создал роутер&#10;- На роутер создан гет запрос с ответом">
       <created>1666527693456</created>
@@ -94,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666527693456</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- Передача параметров в get и их получение&#10;- consumer и publisher">
+      <created>1666541504290</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666541504290</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- Создал первый вертикл&#10;- Создал роутер&#10;- На роутер создан гет запрос с ответом" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Создал первый вертикл&#10;- Создал роутер&#10;- На роутер создан гет запрос с ответом" />
+    <MESSAGE value="- Передача параметров в get и их получение&#10;- consumer и publisher" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Передача параметров в get и их получение&#10;- consumer и publisher" />
   </component>
 </project>

@@ -26,6 +26,25 @@
       <artifactId>vertx-web</artifactId>
       <version>4.3.4</version>
     </dependency>
+
+    <dependency>
+      <groupId>io.vertx</groupId>
+      <artifactId>vertx-web-templ-handlebars</artifactId>
+      <version>4.3.4</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.pebbletemplates</groupId>
+      <artifactId>pebble</artifactId>
+      <version>3.1.6</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.vertx</groupId>
+      <artifactId>vertx-web-templ-thymeleaf</artifactId>
+      <version>3.9.6</version>
+    </dependency>
+
   </dependencies>
   <build>
     <finalName>vertex_task</finalName>

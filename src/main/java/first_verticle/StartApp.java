@@ -12,6 +12,8 @@ public class StartApp {
         vertx.deployVerticle(new ServerVerticle(router));           // start server and listen port (8181)
         vertx.deployVerticle(new HelloWithNameVerticle(router));    // address: /hello/<name>
 
+        router.route().path("/templates/index");
+
         router.get("/hello").handler(rc->{
             rc.response()
                     .putHeader(HttpHeaders.CONTENT_TYPE,"application/json")
@@ -19,7 +21,7 @@ public class StartApp {
         });
 
         vertx.eventBus().consumer("user.names", message -> {
-            ServerVerticle.logger.info(">>> "+ message.body());
+            ServerVerticle.logger.info(message.body());
         });
 
     }
