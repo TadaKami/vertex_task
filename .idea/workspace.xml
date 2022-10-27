@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="980b92e2-a3df-4cff-8188-e67b5b4a3883" name="Changes" comment="- Передача параметров в get и их получение&#10;- consumer и publisher">
-      <change afterPath="$PROJECT_DIR$/src/main/java/first_verticle/SumNumbersVerticle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/calc-vertx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/vertx-eventbus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/first_verticle/ServerVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_verticle/ServerVerticle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/first_verticle/StartApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_verticle/StartApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/calc-vertx.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/js/calc-vertx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/vertx-eventbus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/js/vertx-eventbus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,22 +42,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/Java_proj/vertex_task/src/main/resources",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java\vertex_task\src\main\resources" />
       <recent name="F:\Java_proj\vertex_task\src\main\resources" />
       <recent name="F:\Java_proj\vertex_task\src\main\java\first_verticle" />
     </key>
@@ -100,6 +93,8 @@
       <workItem from="1666530009251" duration="7233000" />
       <workItem from="1666630963515" duration="3122000" />
       <workItem from="1666656666678" duration="2537000" />
+      <workItem from="1666845633479" duration="2014000" />
+      <workItem from="1666867609782" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="- Создал первый вертикл&#10;- Создал роутер&#10;- На роутер создан гет запрос с ответом">
       <created>1666527693456</created>
@@ -136,5 +131,16 @@
     <MESSAGE value="- Создал первый вертикл&#10;- Создал роутер&#10;- На роутер создан гет запрос с ответом" />
     <MESSAGE value="- Передача параметров в get и их получение&#10;- consumer и publisher" />
     <option name="LAST_COMMIT_MESSAGE" value="- Передача параметров в get и их получение&#10;- consumer и publisher" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/first_verticle/SumNumbersVerticle.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -21,20 +21,12 @@ public class ServerVerticle extends AbstractVerticle {
 
     @Override
     public void start(Promise<Void> promise) throws Exception {
-        router.route("/resources/*").handler(StaticHandler.create("templates/resources"));
-//        TemplateEngine engine = HandlebarsTemplateEngine.create(vertx);
-//        TemplateHandler handler = TemplateHandler.create(engine,"resources/templates","text/html");
-
         TemplateEngine templateEngine = ThymeleafTemplateEngine.create(vertx);
-        TemplateHandler handler = TemplateHandler.create(templateEngine, "webapp/templates","text/html");
+        TemplateHandler handler = TemplateHandler.create(templateEngine, "src/main/resources/templates","text/html");
+        TemplateHandler handlerJs = TemplateHandler.create(templateEngine, "src/main/resources/js","application/javascript");
         router.route("/templates/*").handler(handler);
-        router.route().handler(h->h.reroute("/templates/index.html"));
-
-//        router.route("/index").handler(context->{
-//            HttpServerResponse response = context.response();
-//            response.putHeader(HttpHeaders.CONTENT_TYPE,"text/html").end("/templates/index.html");
-//            context.reroute("/templates/index.html");
-//        });
+        router.route("/js/*").handler(handlerJs);
+        router.route("/indexroute").handler(h->h.reroute("/templates/index.html"));
 
         vertx.createHttpServer()
                 .requestHandler(router)

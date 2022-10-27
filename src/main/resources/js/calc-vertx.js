@@ -13,10 +13,13 @@ eb.onopen = function (){
 
 $(document).ready(function (){
     $("#calculation").submit(function(event){
+        console.log("event",event);
         event.preventDefault();
         let msg = $("#sumNumbers").val();
+        console.log("MSG BOY",msg);
         if (msg.length > 0) {
-            eb.publish("sum.numbers",msg);
+            console.log("msg",msg);
+            eb.send("sum.numbers",msg);
         }
     })
 })
