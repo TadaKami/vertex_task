@@ -21,19 +21,29 @@
 <div class="row d-flex flex-column min-vh-100 justify-content-center" id="calc">
     <form id="calculation">
         <div class="row g-3">
-            <div class="col">
-                <input type="number" class="form-control" placeholder="Первое число" id="firstNum">
-            </div>
-            <div class="col">
-                <input type="number" class="form-control" placeholder="Второе число" id="secondNum">
-            </div>
-            <div class="col">
-                <div class="md-form mb-4 pink-textarea active-pink-textarea-2">
-                    <textarea id="historySums" class="md-textarea form-control bg-highlight" placeholder="History Sums" rows="10" disabled></textarea>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="firstNum">FIRST VAL</label>
+                        <input type="number" class="form-control" placeholder="Первое число" id="firstNum">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="secondNum" class="label_vals">SECOND VAL</label>
+                        <input type="number" class="form-control" placeholder="Второе число" id="secondNum">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1">
+                        <input type="submit" class="btn btn-primary mt-2" value="Суммировать">
+                    </div>
                 </div>
             </div>
+            <div class="col-md-3">
+                <label for="historySums">HISTORY</label>
+                <textarea id="historySums" class="md-textarea form-control"
+                          placeholder="History Sums" rows="10" disabled></textarea>
+            </div>
         </div>
-        <input type="submit" class="btn btn-primary">OK
     </form>
 </div>
 </body>

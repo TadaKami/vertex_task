@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="980b92e2-a3df-4cff-8188-e67b5b4a3883" name="Changes" comment="Страница успешно отрендерена, был не правильный путь&#10;Подключены Js файлы тоже через router&#10;(Посмотреть как связать шину js и java)">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/css/textarea.css" afterDir="false" />
+    <list default="true" id="980b92e2-a3df-4cff-8188-e67b5b4a3883" name="Changes" comment="- Передача параметров в get и их получение&#10;- consumer и publisher">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/first_verticle/ServerVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_verticle/ServerVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first_verticle/HelloWithNameVerticle.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/first_verticle/StartApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_verticle/StartApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/first_verticle/SumNumbersVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_verticle/SumNumbersVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/css/textarea.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/textarea.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/js/calc-vertx.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/js/calc-vertx.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
@@ -23,10 +21,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="Class" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -42,12 +40,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "last_opened_file_path": "F:/iivs_project"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Java\vertex_task\src\main\resources" />
@@ -55,6 +53,7 @@
       <recent name="F:\Java_proj\vertex_task\src\main\java\first_verticle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Java_proj\vertex_task\src\main\resources\templates\fragments" />
       <recent name="F:\Java_proj\vertex_task\src\main\webapp" />
       <recent name="F:\Java_proj\vertex_task\src\main\resources\webroot" />
       <recent name="F:\Java_proj\vertex_task\src\main\resources" />
