@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="980b92e2-a3df-4cff-8188-e67b5b4a3883" name="Changes" comment="- Передача параметров в get и их получение&#10;- consumer и publisher">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="980b92e2-a3df-4cff-8188-e67b5b4a3883" name="Changes" comment="Страница успешно отрендерена, был не правильный путь&#10;Подключены Js файлы тоже через router&#10;(Посмотреть как связать шину js и java)">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/textarea.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/first_verticle/ServerVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_verticle/ServerVerticle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/first_verticle/StartApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_verticle/StartApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/calc-vertx.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/js/calc-vertx.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/vertx-eventbus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/js/vertx-eventbus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/first_verticle/SumNumbersVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/first_verticle/SumNumbersVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/js/calc-vertx.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/js/calc-vertx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +26,7 @@
         <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -46,6 +46,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -95,6 +96,8 @@
       <workItem from="1666656666678" duration="2537000" />
       <workItem from="1666845633479" duration="2014000" />
       <workItem from="1666867609782" duration="30000" />
+      <workItem from="1666868030075" duration="105000" />
+      <workItem from="1666920912746" duration="10552000" />
     </task>
     <task id="LOCAL-00001" summary="- Создал первый вертикл&#10;- Создал роутер&#10;- На роутер создан гет запрос с ответом">
       <created>1666527693456</created>
@@ -110,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666541504290</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Страница успешно отрендерена, был не правильный путь&#10;Подключены Js файлы тоже через router&#10;(Посмотреть как связать шину js и java)">
+      <created>1666868122567</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666868122568</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,17 +140,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- Создал первый вертикл&#10;- Создал роутер&#10;- На роутер создан гет запрос с ответом" />
     <MESSAGE value="- Передача параметров в get и их получение&#10;- consumer и publisher" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Передача параметров в get и их получение&#10;- consumer и publisher" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/first_verticle/SumNumbersVerticle.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Страница успешно отрендерена, был не правильный путь&#10;Подключены Js файлы тоже через router&#10;(Посмотреть как связать шину js и java)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Страница успешно отрендерена, был не правильный путь&#10;Подключены Js файлы тоже через router&#10;(Посмотреть как связать шину js и java)" />
   </component>
 </project>

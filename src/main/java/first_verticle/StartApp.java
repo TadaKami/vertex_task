@@ -11,10 +11,7 @@ public class StartApp {
         Router router = Router.router(Vertx.vertx());
         vertx.deployVerticle(new ServerVerticle(router));           // start server and listen port (8181)
         vertx.deployVerticle(new HelloWithNameVerticle(router));    // address: /hello/<name>
-
-        vertx.eventBus().consumer("sum.numbers",msg->{
-            System.out.println(msg.body());
-        });
+        vertx.deployVerticle(new SumNumbersVerticle());
 
         router.route().path("/templates/index");
 
